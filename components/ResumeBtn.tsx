@@ -75,7 +75,7 @@ export default function ResumeBtn() {
       aria-label="Resume"
       className="group hidden duration-150 lg:flex md:justify-center md:items-center relative h-[34px] w-[100px] overflow-hidden border-[.01px] border-gray-800 hover:border-none hover:bg-accentColor hover:shadow-resume_btn_shadow hover:webkit-reflect"
     >
-      <span className="sr-only">Resume</span>
+      <span className="sr-only">CV</span>
       <div
         ref={topTween}
         className="absolute left-[-100px] top-0 h-[1px] w-full bg-[linear-gradient(90deg,transparent,hsl(var(--accent-color)))]"
@@ -98,7 +98,7 @@ export default function ResumeBtn() {
           section === "#project" && "dark:text-black"
         )}
       >
-        Resume
+        CV
       </div>
     </a>
   )

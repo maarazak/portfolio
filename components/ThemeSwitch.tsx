@@ -38,7 +38,7 @@ export default function ThemeSwitch() {
               section === "#project" && "dark:text-black"
             )}
           />
-          <span className="sr-only">Toggle theme</span>
+          <span className="sr-only">Changer de thème</span>
         </Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent className="z-[101]" align="end">
@@ -47,21 +47,21 @@ export default function ThemeSwitch() {
             setTheme("light")
           }}
         >
-          Light
+         Clair
         </DropdownMenuItem>
         <DropdownMenuItem
           onClick={() => {
             setTheme("dark")
           }}
         >
-          Dark
+          Sombre
         </DropdownMenuItem>
         <DropdownMenuItem
           onClick={() => {
             setTheme("system")
           }}
         >
-          System
+          Système
         </DropdownMenuItem>
       </DropdownMenuContent>
     </DropdownMenu>

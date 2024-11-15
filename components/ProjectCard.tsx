@@ -122,7 +122,7 @@ export default function ProjectCard({ item }: Props) {
               rel="noreferrer"
               className="flex items-center gap-2"
             >
-              <div className="group-hover:text-white">Visit</div>
+              <div className="group-hover:text-white">Visiter</div>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
