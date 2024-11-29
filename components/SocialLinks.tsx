@@ -65,8 +65,8 @@ export default function SocialLinks() {
 const socialLinks = [
   {
     id: 1,
-    title: "Shinn Thant's Github Profile",
-    link: "https://github.com/devshinthant",
+    title: "Le profil GitHub de MAHAMADOU ALI Abdoul razak.",
+    link: "https://github.com/lilraz70",
     svg: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -80,8 +80,8 @@ const socialLinks = [
   },
   {
     id: 2,
-    title: "Shinn Thant's LinkedIn Profile",
-    link: "https://www.linkedin.com/in/shinn-thant-b90533231/",
+    title: "Le profil LinkedIn de MAHAMADOU ALI Abdoul razak.",
+    link: "https://www.linkedin.com/in/mahamadoualiabdoulrazak/",
     svg: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -96,8 +96,8 @@ const socialLinks = [
   },
   {
     id: 3,
-    title: "Check Shinn Thant on Dev.to",
-    link: "https://dev.to/shinnthant2004",
+    title: "Découvrez MAHAMADOU ALI Abdoul razak sur Dev.to",
+    link: "https://dev.to/abdoul_razakmahamadoual",
     svg: (
       <svg
         xmlns="http://www.w3.org/2000/svg"

@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     url: "https://lilrazdev.vercel.app/",
-    title: "Shinthant.Dev",
+    title: "Lilrazdev",
     description:
       "Site web de portfolio développé avec NextJS, TypeScript, ShadcnUI et GSAP..",
     siteName: "Portfolio website",
