@@ -3,19 +3,19 @@ import { Analytics } from "@vercel/analytics/react"
 import { Jost } from "next/font/google"
 import { ThemeProvider } from "@/providers/ThemeProvider"
 import Loader from "@/components/Loader"
-// import Header from "@/components/layouts/header"
+import Header from "@/components/layouts/header"
 import "./globals.css"
 
 const jost = Jost({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "LilrazDev",
+  title: "MAHAMADOU ALI Abdoul Razak",
   description: "A Frontend Developer",
   applicationName: "Portfolio",
   openGraph: {
     type: "website",
-    url: "https://lilrazdev.vercel.app/",
-    title: "Lilrazdev",
+    url: "https://MAHAMADOU ALI Abdoul Razak.vercel.app/",
+    title: "MAHAMADOU ALI Abdoul Razak",
     description:
       "Site web de portfolio développé avec NextJS, TypeScript, ShadcnUI et GSAP..",
     siteName: "Portfolio website",
@@ -53,7 +53,7 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          {/* <Header /> */}
+          <Header />
           {children}
         </ThemeProvider>
       </body>

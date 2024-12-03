@@ -148,15 +148,17 @@ return (
                 <div className="flex flex-col items-start gap-4">
                     <div className="overflow-hidden">
                         <div className="dark:text-white text-animation">
-                            Développeur web et mobile avec plus de 4 ans d'expérience et diplômé en ingénierie
-                            logicielle, je me spécialise dans la création de solutions évolutives et de haute qualité.
-                            Expert en PHP (Laravel) et Dart (Flutter), je développe des backends performants et
-                            des interfaces intuitives. Je conçois des applications web et mobiles sur mesure, adaptées
-                            aux besoins spécifiques de chaque projet, en mettant l'accent sur la performance et
-                            l'expérience utilisateur.
+                            Développeur web et mobile avec 3+ ans d'expérience en ingénierie logicielle, spécialisé en
+                            PHP (Laravel) , Dart (Flutter) et Wordpress.
+                            Je conçois des applications sur mesure, performantes et centrées sur l'utilisateur.
+                            <br />
+                            <span className="block mt-2">
+                                J'accompagne les professionnels dans leurs projets digitaux : création d'applications,
+                                optimisation d'outils, ou initiation à la programmation, avec un plan d'action adapté à
+                                leurs objectifs.
+                            </span>
                         </div>
                     </div>
-
                     <div className="overflow-hidden">
                         <div className="dark:text-white text-animation">
                             Mon parcours éducatif.
@@ -167,7 +169,7 @@ return (
                         <div className="overflow-hidden">
                             <div className="dark:text-white text-animation">
                                 Obtention du Baccalauréat H en Informatique de gestion à CEFIG, une formation fondée sur
-                                les principes de la gestion et de l'informatique.
+                                les principes du système d'information et de l'informatique.
                             </div>
                         </div>
                     </div>
@@ -307,7 +309,8 @@ return (
                 strokeWidth="1.5" className="stroke-black dark:stroke-white" fill="none" strokeLinecap="round"
                 strokeLinejoin="round">
                 <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                <path d="M11.77 11.24H9.956V8.202h2.152c1.17 0 1.834.522 1.834 1.466 0 1.008-.773 1.572-2.174 1.572zm.324 1.206H9.957v3.348h2.231c1.459 0 2.232-.585 2.232-1.685s-.795-1.663-2.326-1.663zM24 11.39v1.218c-1.128.108-1.817.944-2.226 2.268-.407 1.319-.463 2.937-.42 4.186.045 1.3-.968 2.5-2.337 2.5H4.985c-1.37 0-2.383-1.2-2.337-2.5.043-1.249-.013-2.867-.42-4.186-.41-1.324-1.1-2.16-2.228-2.268V11.39c1.128-.108 1.819-.944 2.227-2.268.408-1.319.464-2.937.42-4.186-.045-1.3.968-2.5 2.338-2.5h14.032c1.37 0 2.382 1.2 2.337 2.5-.043 1.249.013 2.867.42 4.186.409 1.324 1.098 2.16 2.226 2.268zm-7.927 2.817c0-1.354-.953-2.333-2.368-2.488v-.057c1.04-.169 1.856-1.135 1.856-2.213 0-1.537-1.213-2.538-3.062-2.538h-4.16v10.172h4.181c2.218 0 3.553-1.086 3.553-2.876z" />
+                <path
+                    d="M11.77 11.24H9.956V8.202h2.152c1.17 0 1.834.522 1.834 1.466 0 1.008-.773 1.572-2.174 1.572zm.324 1.206H9.957v3.348h2.231c1.459 0 2.232-.585 2.232-1.685s-.795-1.663-2.326-1.663zM24 11.39v1.218c-1.128.108-1.817.944-2.226 2.268-.407 1.319-.463 2.937-.42 4.186.045 1.3-.968 2.5-2.337 2.5H4.985c-1.37 0-2.383-1.2-2.337-2.5.043-1.249-.013-2.867-.42-4.186-.41-1.324-1.1-2.16-2.228-2.268V11.39c1.128-.108 1.819-.944 2.227-2.268.408-1.319.464-2.937.42-4.186-.045-1.3.968-2.5 2.338-2.5h14.032c1.37 0 2.382 1.2 2.337 2.5-.043 1.249.013 2.867.42 4.186.409 1.324 1.098 2.16 2.226 2.268zm-7.927 2.817c0-1.354-.953-2.333-2.368-2.488v-.057c1.04-.169 1.856-1.135 1.856-2.213 0-1.537-1.213-2.538-3.062-2.538h-4.16v10.172h4.181c2.218 0 3.553-1.086 3.553-2.876z" />
             </svg>
             <div className="dark:text-white text-lg font-medium">Bootstrap</div>
         </div>
@@ -358,6 +361,14 @@ return (
                 <path d="M4.57 17.18l10.93 -10.68" />
             </svg>
             <div className="dark:text-white text-lg font-medium">Firebase</div>
+        </div>
+        <div className="flex items-center gap-2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24"
+                strokeWidth="1.5" className="stroke-black dark:stroke-white" fill="none" strokeLinecap="round"
+                strokeLinejoin="round">
+                <path d="M3.667 12a8.334 8.334 0 004.697 7.5L4.388 8.607A8.3 8.3 0 003.667 12zm8.48.729l-2.501 7.265a8.337 8.337 0 005.121-.133.746.746 0 01-.06-.115l-2.56-7.017zm5.479-1.15a4.389 4.389 0 00-.687-2.298 3.903 3.903 0 01-.819-1.954 1.443 1.443 0 011.4-1.48c.037 0 .072.005.107.008a8.331 8.331 0 00-12.59 1.568c.196.006.38.01.537.01.871 0 2.22-.106 2.22-.106a.345.345 0 01.054.687s-.452.052-.954.079l3.035 9.026 1.824-5.47-1.299-3.556c-.449-.027-.874-.08-.874-.08a.345.345 0 01.053-.686s1.376.106 2.195.106c.871 0 2.221-.106 2.221-.106a.344.344 0 01.053.687s-.452.052-.953.079l3.011 8.958.86-2.725c.336-.88.54-1.806.606-2.746zm1.743-2.72a7.866 7.866 0 01-.634 2.985l-2.545 7.359a8.334 8.334 0 003.123-11.2c.038.283.056.57.056.856zM12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm3.659 18.662a9.388 9.388 0 01-8.914-.867 9.432 9.432 0 01-3.407-4.136 9.386 9.386 0 01.867-8.914 9.427 9.427 0 014.136-3.406 9.388 9.388 0 018.914.866 9.432 9.432 0 013.407 4.136 9.386 9.386 0 01-.867 8.914 9.427 9.427 0 01-4.136 3.407z" />
+            </svg>
+            <div className="dark:text-white text-lg font-medium">Wordpress</div>
         </div>
     </div>
 
@@ -425,7 +436,8 @@ return (
                 strokeWidth="1.5" className="stroke-black dark:stroke-white" fill="none" strokeLinecap="round"
                 strokeLinejoin="round">
                 <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                <path d="M11.77 11.24H9.956V8.202h2.152c1.17 0 1.834.522 1.834 1.466 0 1.008-.773 1.572-2.174 1.572zm.324 1.206H9.957v3.348h2.231c1.459 0 2.232-.585 2.232-1.685s-.795-1.663-2.326-1.663zM24 11.39v1.218c-1.128.108-1.817.944-2.226 2.268-.407 1.319-.463 2.937-.42 4.186.045 1.3-.968 2.5-2.337 2.5H4.985c-1.37 0-2.383-1.2-2.337-2.5.043-1.249-.013-2.867-.42-4.186-.41-1.324-1.1-2.16-2.228-2.268V11.39c1.128-.108 1.819-.944 2.227-2.268.408-1.319.464-2.937.42-4.186-.045-1.3.968-2.5 2.338-2.5h14.032c1.37 0 2.382 1.2 2.337 2.5-.043 1.249.013 2.867.42 4.186.409 1.324 1.098 2.16 2.226 2.268zm-7.927 2.817c0-1.354-.953-2.333-2.368-2.488v-.057c1.04-.169 1.856-1.135 1.856-2.213 0-1.537-1.213-2.538-3.062-2.538h-4.16v10.172h4.181c2.218 0 3.553-1.086 3.553-2.876z" />
+                <path
+                    d="M11.77 11.24H9.956V8.202h2.152c1.17 0 1.834.522 1.834 1.466 0 1.008-.773 1.572-2.174 1.572zm.324 1.206H9.957v3.348h2.231c1.459 0 2.232-.585 2.232-1.685s-.795-1.663-2.326-1.663zM24 11.39v1.218c-1.128.108-1.817.944-2.226 2.268-.407 1.319-.463 2.937-.42 4.186.045 1.3-.968 2.5-2.337 2.5H4.985c-1.37 0-2.383-1.2-2.337-2.5.043-1.249-.013-2.867-.42-4.186-.41-1.324-1.1-2.16-2.228-2.268V11.39c1.128-.108 1.819-.944 2.227-2.268.408-1.319.464-2.937.42-4.186-.045-1.3.968-2.5 2.338-2.5h14.032c1.37 0 2.382 1.2 2.337 2.5-.043 1.249.013 2.867.42 4.186.409 1.324 1.098 2.16 2.226 2.268zm-7.927 2.817c0-1.354-.953-2.333-2.368-2.488v-.057c1.04-.169 1.856-1.135 1.856-2.213 0-1.537-1.213-2.538-3.062-2.538h-4.16v10.172h4.181c2.218 0 3.553-1.086 3.553-2.876z" />
             </svg>
             <div className="dark:text-white text-lg font-medium">Bootstrap</div>
         </div>
@@ -476,6 +488,14 @@ return (
                 <path d="M4.57 17.18l10.93 -10.68" />
             </svg>
             <div className="dark:text-white text-lg font-medium">Firebase</div>
+        </div>
+        <div className="flex items-center gap-2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24"
+                strokeWidth="1.5" className="stroke-black dark:stroke-white" fill="none" strokeLinecap="round"
+                strokeLinejoin="round">
+                <path d="M3.667 12a8.334 8.334 0 004.697 7.5L4.388 8.607A8.3 8.3 0 003.667 12zm8.48.729l-2.501 7.265a8.337 8.337 0 005.121-.133.746.746 0 01-.06-.115l-2.56-7.017zm5.479-1.15a4.389 4.389 0 00-.687-2.298 3.903 3.903 0 01-.819-1.954 1.443 1.443 0 011.4-1.48c.037 0 .072.005.107.008a8.331 8.331 0 00-12.59 1.568c.196.006.38.01.537.01.871 0 2.22-.106 2.22-.106a.345.345 0 01.054.687s-.452.052-.954.079l3.035 9.026 1.824-5.47-1.299-3.556c-.449-.027-.874-.08-.874-.08a.345.345 0 01.053-.686s1.376.106 2.195.106c.871 0 2.221-.106 2.221-.106a.344.344 0 01.053.687s-.452.052-.953.079l3.011 8.958.86-2.725c.336-.88.54-1.806.606-2.746zm1.743-2.72a7.866 7.866 0 01-.634 2.985l-2.545 7.359a8.334 8.334 0 003.123-11.2c.038.283.056.57.056.856zM12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm3.659 18.662a9.388 9.388 0 01-8.914-.867 9.432 9.432 0 01-3.407-4.136 9.386 9.386 0 01.867-8.914 9.427 9.427 0 014.136-3.406 9.388 9.388 0 018.914.866 9.432 9.432 0 013.407 4.136 9.386 9.386 0 01-.867 8.914 9.427 9.427 0 01-4.136 3.407z" />
+            </svg>
+            <div className="dark:text-white text-lg font-medium">Wordpress</div>
         </div>
     </div>
 </div>

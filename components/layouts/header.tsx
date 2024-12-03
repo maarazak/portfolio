@@ -1,15 +1,14 @@
 "use client"
 
 import { useEffect, useRef } from "react"
-import navlinks from "@/lib/navConfig"
+// import navlinks from "@/lib/navConfig"
 import { cn } from "@/lib/utils"
 import { useSectionStore } from "@/store/section"
 import gsap from "gsap"
 import Link from "next/link"
 import ResumeBtn from "../ResumeBtn"
 import ThemeSwitch from "../ThemeSwitch"
-import MobileNav from "./MobileNav"
-
+// import MobileNav from "./MobileNav"
 export default function Header() {
 const headerRef = useRef(null)
 
@@ -27,13 +26,13 @@ return (
 <header ref={headerRef} className="fixed z-[100] top-0 left-0 right-0 bg-transparent backdrop-blur-[6px]">
     <div className="w-full h-auto bg-gray-50 shadow-sm dark:bg-transparent min-h-[4.5rem] flex items-center px-[5%]">
         <div className="w-full grid items-center grid-cols-8 md:grid-cols-12">
-            <div className="col-span-4">
+            <div className="col-span-4 flex items-center">
+                <img src="/me.jpg" alt="MAHAMADOU ALI Abdoul Razak" className="w-10 h-10 rounded-full mr-2" />
                 <Link href="/" className="text-xl">
-                <span className={cn( "dark:text-white hover:text-accentColor cursor-pointer" , section === "#project"
-                    && "dark:text-black" )}>
-                    LILRAZ
-                </span>
-                <span className="text-accentColor font-bold">.dev</span>
+                    <span className={cn( "dark:text-white hover:text-accentColor cursor-pointer" , section === "#project" && "dark:text-black" )}>
+                        MAHAMADOU ALI Abdoul Razak
+                    </span>
+                    {/* <span className="text-accentColor font-bold">.dev</span> */}
                 </Link>
             </div>
             {/* <div className="col-span-4 hidden md:block m-auto">
@@ -55,5 +54,6 @@ return (
         </div>
     </div>
 </header>
+
 )
 }
