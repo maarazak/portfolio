@@ -28,11 +28,11 @@ return (
         <div className="w-full grid items-center grid-cols-8 md:grid-cols-12">
             <div className="col-span-4 flex items-center">
                 <img src="/me.jpg" alt="MAHAMADOU ALI Abdoul Razak" className="w-10 h-10 rounded-full mr-2" />
-                <Link href="/" className="text-xl">
+                <Link href="/" className="text-sm">
                     <span className={cn( "dark:text-white hover:text-accentColor cursor-pointer" , section === "#project" && "dark:text-black" )}>
-                        MAHAMADOU ALI Abdoul Razak
+                    Gotheye
                     </span>
-                    {/* <span className="text-accentColor font-bold">.dev</span> */}
+                    <span className="text-accentColor font-bold">Soft</span>
                 </Link>
             </div>
             {/* <div className="col-span-4 hidden md:block m-auto">

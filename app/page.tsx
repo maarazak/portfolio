@@ -6,14 +6,14 @@ import MouseSection from "@/components/sections/MouseSection"
 import ProjectSection from "@/components/sections/ProjectSection"
 
 export default function Home() {
-  return (
-    <main id="main">
-      <MouseSection />
-      <HeroSection />
-      <AboutSection />
-      <ProjectSection />
-      <BlogSection />
-      <ContactSection />
-    </main>
-  )
+return (
+<main id="main">
+    <MouseSection />
+    <HeroSection />
+    <AboutSection />
+    <BlogSection />
+    <ProjectSection />
+    <ContactSection />
+</main>
+)
 }
