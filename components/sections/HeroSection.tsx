@@ -2,9 +2,10 @@
 
 import HeroLines from "@/public/assets/hero/hero-lines.png"
 import Image from "next/image"
-import SocialLinks from "../SocialLinks"
-import HeroContent from "./HeroContent"
-import HeroTool from "./HeroTool"
+
+// import SocialLinks from "../SocialLinks"
+// import HeroContent from "./HeroContent"
+// import HeroTool from "./HeroTool"
 
 export default function HeroSection() {
   return (
@@ -19,9 +20,9 @@ export default function HeroSection() {
         priority
         aria-label="Hero Background Illustration"
       />
-      <HeroTool />
+      {/* <HeroTool />
       <HeroContent />
-      <SocialLinks />
+      <SocialLinks /> */}
     </section>
   )
 }
