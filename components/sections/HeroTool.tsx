@@ -1,13 +1,17 @@
 "use client"
 
 import { useEffect, useRef, useState } from "react"
+// Import de dynamic
 import Code from "@/public/assets/hero/code.png"
 import HeroSpinner from "@/public/assets/hero/hero-spinner.webp"
 import Source from "@/public/assets/hero/source.png"
 import heroLottieData from "@/public/assets/lottie/hero-lottie.json"
 import { gsap } from "gsap"
-import Lottie from "lottie-react"
+import dynamic from "next/dynamic"
 import Image from "next/image"
+
+// Charger dynamiquement Lottie pour éviter l'erreur côté serveur
+const HeroLottie = dynamic(() => import("lottie-react"), { ssr: false })
 
 export default function HeroTool() {
   const firstSpinnerRef = useRef(null)
@@ -40,7 +44,7 @@ export default function HeroTool() {
       {/* Circle */}
       <div className="relative overflow-hidden xl:overflow-visible w-full h-[16rem] md:w-[27rem] md:h-[27rem] flex justify-center items-center">
         <div className="absolute hidden xl:block select-none pointer-events-none left-[-10rem] bottom-[3rem] rotate-270">
-          <Lottie animationData={heroLottieData} loop={true} />
+          <HeroLottie animationData={heroLottieData} loop={true} />
         </div>
         <Image
           ref={firstSpinnerRef}
