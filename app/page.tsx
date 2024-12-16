@@ -1,4 +1,4 @@
-// import AboutSection from "@/components/sections/AboutSection"
+import AboutSection from "@/components/sections/AboutSection"
 // import BlogSection from "@/components/sections/BlogSection"
 // import ContactSection from "@/components/sections/ContactSection"
 import HeroSection from "@/components/sections/HeroSection"
@@ -11,7 +11,7 @@ export default function Home() {
     <main id="main">
       <MouseSection />
       <HeroSection />
-      {/* <AboutSection /> */}
+      <AboutSection />
       {/* <ProjectSection /> */}
       {/* <BlogSection /> */}
       {/* <ContactSection /> */}
