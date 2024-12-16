@@ -57,7 +57,7 @@ export default function HeroContent() {
       <div className="overflow-hidden text-center">
         <div className="text-animation text-2xl md:text-4xl font-semibold">
           <span className="bg-[linear-gradient(#000000,rgba(255,255,255,.6))] dark:bg-[linear-gradient(#fff,rgba(255,255,255,.6))] inline-block text-transparent bg-clip-text">
-            Développement, Mentor et Coach
+            Lead, Développeur, Mentor et Coach
           </span>
         </div>
         <div className=" text-accentColor text-xl md:text-3xl font-semibold">
