@@ -72,7 +72,7 @@ export default function ProjectSection() {
           <div ref={elementRef} className="overflow-hidden ">
             <div className="dark:text-white qoutes-animation  md:w-full text-center font-medium flex flex-col items-center">
               Ses projets incluent des réalisations en freelance, tandis que
-              d'autres restent confidentiels et non répertoriés.
+              d&#39;autres restent confidentiels et non répertoriés.
             </div>
           </div>
         </div>
@@ -83,7 +83,7 @@ export default function ProjectSection() {
         </div>
 
         <div className="font-medium dark:text-white">
-          Découvrez d'autres projets sur demande{" "}
+          Découvrez d&#39;autres projets sur demande{" "}
           <Link
             href="#contact"
             aria-label="contactez-moi"

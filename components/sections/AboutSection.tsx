@@ -158,16 +158,16 @@ export default function AboutSection() {
               <div className="overflow-hidden">
                 <div className="dark:text-white text-animation">
                   Je suis MAHAMADOU ALI Abdoul Razak, développeur web et mobile
-                  avec 5+ ans d'expérience en ingénierie logicielle, spécialisé
-                  en PHP (Laravel) , Dart (Flutter) et Wordpress. Je conçois des
-                  applications sur mesure, performantes et centrées sur
-                  l'utilisateur.
+                  avec 5+ ans d&#39;expérience en ingénierie logicielle,
+                  spécialisé en PHP (Laravel) , Dart (Flutter) et Wordpress. Je
+                  conçois des applications sur mesure, performantes et centrées
+                  sur l&#39;utilisateur.
                   <br />
                   <span className="block mt-2">
-                    J'accompagne les professionnels dans leurs projets digitaux
-                    : création d'applications, optimisation d'outils, ou
-                    initiation à la programmation, avec un plan d'action adapté
-                    à leurs objectifs.
+                    J&#39;accompagne les professionnels dans leurs projets
+                    digitaux : création d&#39;applications, optimisation
+                    d&#39;outils, ou initiation à la programmation, avec un plan
+                    d&#39;action adapté à leurs objectifs.
                   </span>
                 </div>
               </div>
@@ -184,20 +184,20 @@ export default function AboutSection() {
                   <div className="dark:text-white text-animation">
                     Obtention du Baccalauréat H en Informatique de gestion à
                     CEFIG, une formation fondée sur les principes du système
-                    d'information et de l'informatique.
+                    d&#39;information et de l&#39;informatique.
                   </div>
                 </div>
               </div>
 
               <div className="flex gap-1 flex-col items-start">
                 <div className="text-accentColor">
-                  Licence en Systèmes d'Information et Réseaux - ESTA
+                  Licence en Systèmes d&#39;Information et Réseaux - ESTA
                 </div>
                 <div className="overflow-hidden">
                   <div className="dark:text-white text-animation">
-                    Obtention d'une Licence en Systèmes d'Information et Réseaux
-                    à l'ESTA, avec un accent sur l'architecture des systèmes et
-                    la gestion des réseaux.
+                    Obtention d&#39;une Licence en Systèmes d&#39;Information et
+                    Réseaux à l&#39;ESTA, avec un accent sur l&#39;architecture
+                    des systèmes et la gestion des réseaux.
                   </div>
                 </div>
               </div>
@@ -205,8 +205,8 @@ export default function AboutSection() {
                 <div className="text-accentColor">Master - IFOAD</div>
                 <div className="overflow-hidden">
                   <div className="dark:text-white text-animation">
-                    Master en génie logiciel à l'IFOAD, avec un accent sur
-                    l'architecture logicielle, la sécurité et les tests.
+                    Master en génie logiciel à l&#39;IFOAD, avec un accent sur
+                    l&#39;architecture logicielle, la sécurité et les tests.
                   </div>
                 </div>
               </div>
@@ -246,7 +246,7 @@ export default function AboutSection() {
                 width={300}
                 height={300}
                 priority
-                alt="shin thant's profile"
+                alt="shin thant&#39;s profile"
                 src={MeImage}
               />
 

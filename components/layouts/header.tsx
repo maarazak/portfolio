@@ -5,6 +5,7 @@ import { useEffect, useRef } from "react"
 import { cn } from "@/lib/utils"
 import { useSectionStore } from "@/store/section"
 import gsap from "gsap"
+import Image from "next/image"
 import Link from "next/link"
 import ResumeBtn from "../ResumeBtn"
 import ThemeSwitch from "../ThemeSwitch"
@@ -31,9 +32,11 @@ export default function Header() {
       <div className="w-full h-auto bg-gray-50 shadow-sm dark:bg-transparent min-h-[4.5rem] flex items-center px-[5%]">
         <div className="w-full grid items-center grid-cols-8 md:grid-cols-12">
           <div className="col-span-4 flex items-center">
-            <img
+            <Image
               src="/me.jpg"
               alt="MAHAMADOU ALI Abdoul Razak"
+              width={50}
+              height={50}
               className="w-10 h-10 rounded-full mr-2"
             />
             <Link href="/" className="text-sm">
