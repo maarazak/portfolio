@@ -1,7 +1,7 @@
 import AboutSection from "@/components/sections/AboutSection"
+import BlogSection from "@/components/sections/BlogSection"
 import HeroSection from "@/components/sections/HeroSection"
 import MouseSection from "@/components/sections/MouseSection"
-// import BlogSection from "@/components/sections/BlogSection"
 // import ContactSection from "@/components/sections/ContactSection"
 import ProjectSection from "@/components/sections/ProjectSection"
 
@@ -12,9 +12,10 @@ export default function Home() {
       <HeroSection />
       <AboutSection />
       <ProjectSection />
+      <BlogSection />
       {/* 
      
-      <BlogSection />
+     
       <ContactSection /> */}
     </main>
   )
