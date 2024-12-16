@@ -7,7 +7,7 @@ export default function MouseSection() {
   const cursorRef = useRef(null)
 
   useEffect(() => {
-    const handleMouseMove = (e: MouseEvent) => {
+    document.addEventListener("mousemove", (e) => {
       const mouseX = e.clientX
       const mouseY = e.clientY
       gsap.to(cursorRef.current, {
@@ -16,7 +16,7 @@ export default function MouseSection() {
         opacity: 1,
         delay: 0,
       })
-    }
+    })
 
     const hideCursor = () => {
       gsap.to(cursorRef.current, { opacity: 0 })
@@ -26,20 +26,10 @@ export default function MouseSection() {
       gsap.to(cursorRef.current, { opacity: 1 })
     }
 
-    document.addEventListener("mousemove", handleMouseMove)
     document.addEventListener("mouseleave", hideCursor)
     document.addEventListener("mousedown", hideCursor)
     document.addEventListener("mouseup", showCursor)
-
-    // Nettoyage des écouteurs d'événements lors du démontage du composant
-    return () => {
-      document.removeEventListener("mousemove", handleMouseMove)
-      document.removeEventListener("mouseleave", hideCursor)
-      document.removeEventListener("mousedown", hideCursor)
-      document.removeEventListener("mouseup", showCursor)
-    }
   }, [])
-
   return (
     <div
       ref={cursorRef}
