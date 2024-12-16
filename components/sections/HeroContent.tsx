@@ -1,3 +1,5 @@
+"use client"
+
 import { useEffect, useRef } from "react"
 import { ArrowRightIcon } from "@radix-ui/react-icons"
 import { gsap } from "gsap"

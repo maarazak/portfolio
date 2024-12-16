@@ -1,3 +1,5 @@
+"use client"
+
 import { useEffect, useRef } from "react"
 import Code from "@/public/assets/hero/code.png"
 import HeroSpinner from "@/public/assets/hero/hero-spinner.webp"
