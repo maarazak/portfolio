@@ -7,7 +7,7 @@ export default function MouseSection() {
   const cursorRef = useRef(null)
 
   useEffect(() => {
-    const handleMouseMove = (e) => {
+    const handleMouseMove = (e: MouseEvent) => {
       const mouseX = e.clientX
       const mouseY = e.clientY
       gsap.to(cursorRef.current, {
