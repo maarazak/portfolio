@@ -10,6 +10,7 @@ import EkerIMG from "@/public/assets/projects/eker.png"
 import MRVIMG from "@/public/assets/projects/mrv.png"
 import PDAIMG from "@/public/assets/projects/pda.png"
 import Portfolio from "@/public/assets/projects/portfolio.png"
+import SAABATVIMG from "@/public/assets/projects/saabatv.png"
 import SHOPONEIMG from "@/public/assets/projects/shopone.png"
 import VatilobeIMG from "@/public/assets/projects/vatilove.jpeg"
 import XtrakIMG from "@/public/assets/projects/xtrak.png"
@@ -203,5 +204,14 @@ const projects: Project[] = [
     techStacks: ["PHP", "Laravel", "Livewire", "Bootstrap"],
     image: MRVIMG,
     url: "https://attenuation.mnv-cotedivoire.ci/",
+  },
+  {
+    id: 11,
+    title: "SAABA TV",
+    description:
+      "Une plateforme de diffusion de contenu vidéo pour les émissions de SAABA TV.",
+    techStacks: ["PHP", "Wordpress"],
+    image: SAABATVIMG,
+    url: "https://saabatv.com/",
   },
 ]
