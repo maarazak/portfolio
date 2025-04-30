@@ -82,7 +82,7 @@ export default function AboutSection() {
           tl.to(
             q(".project-count"),
             {
-              innerText: 7,
+              innerText: 10,
               duration: 0.5,
               snap: {
                 innerText: 1,
@@ -94,7 +94,7 @@ export default function AboutSection() {
           tl.to(
             q(".user-count"),
             {
-              innerText: 1,
+              innerText: 7,
               duration: 0.5,
               snap: {
                 innerText: 1,
@@ -165,9 +165,8 @@ export default function AboutSection() {
                   <br />
                   <span className="block mt-2">
                     J&#39;accompagne les professionnels dans leurs projets
-                    digitaux : création d&#39;applications, optimisation
-                    d&#39;outils, ou initiation à la programmation, avec un plan
-                    d&#39;action adapté à leurs objectifs.
+                    digitaux : création d&#39;applications web et mobile, avec
+                    un plan d’action adapté à leurs objectifs.
                   </span>
                 </div>
               </div>
@@ -201,7 +200,7 @@ export default function AboutSection() {
                   </div>
                 </div>
               </div>
-              <div className="flex gap-1 flex-col items-start">
+              {/* <div className="flex gap-1 flex-col items-start">
                 <div className="text-accentColor">Master - IFOAD</div>
                 <div className="overflow-hidden">
                   <div className="dark:text-white text-animation">
@@ -209,7 +208,7 @@ export default function AboutSection() {
                     l&#39;architecture logicielle, la sécurité et les tests.
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
 
             <div className="w-full border-t-accentColor py-5 border-b-accentColor border-t-[0.01px] border-b-[0.01px] flex items-center gap-6 md:gap-6 lg:gap-20">
@@ -223,7 +222,7 @@ export default function AboutSection() {
 
               <div className="flex flex-col font-medium items-center">
                 <div className="text-3xl md:text-4xl dark:text-white">
-                  <span className="project-count">5</span>{" "}
+                  <span className="project-count">10</span>{" "}
                   <span className="text-accentColor">+</span>
                 </div>
                 <div className="dark:text-white text-sm">Projets réalisés</div>
@@ -231,10 +230,10 @@ export default function AboutSection() {
 
               <div className="flex flex-col font-medium items-center">
                 <div className="text-3xl md:text-4xl dark:text-white">
-                  <span className="user-count">1</span>{" "}
-                  {/* <span className="text-accentColor">+</span> */}
+                  <span className="user-count">7</span>{" "}
+                  <span className="text-accentColor">+</span>
                 </div>
-                <div className="dark:text-white text-sm">Contribution</div>
+                <div className="dark:text-white text-sm">Partenaires</div>
               </div>
             </div>
           </div>

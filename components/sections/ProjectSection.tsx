@@ -3,7 +3,14 @@
 import { useEffect, useRef } from "react"
 import useOnScreen from "@/hooks/useOnScreen"
 import useScrollActive from "@/hooks/useScrollActive"
+import BebeBoutiqueIMG from "@/public/assets/projects/bbboutique.png"
+import BYMSIMG from "@/public/assets/projects/byms.png"
+import ControlPlusIMG from "@/public/assets/projects/controlplus.png"
+import EkerIMG from "@/public/assets/projects/eker.png"
+import MRVIMG from "@/public/assets/projects/mrv.png"
+import PDAIMG from "@/public/assets/projects/pda.png"
 import Portfolio from "@/public/assets/projects/portfolio.png"
+import SHOPONEIMG from "@/public/assets/projects/shopone.png"
 import VatilobeIMG from "@/public/assets/projects/vatilove.jpeg"
 import XtrakIMG from "@/public/assets/projects/xtrak.png"
 import { useSectionStore } from "@/store/section"
@@ -121,7 +128,7 @@ const projects: Project[] = [
     title: "XTRAK",
     description:
       "Application métier avec tableaux de bord, statistiques, gestion de multi-utilisateurs et interface responsive.",
-    techStacks: ["Livewire", "Laravel", "Bootstrap"],
+    techStacks: ["PHP", "Laravel", "Livewire", "Bootstrap"],
     image: XtrakIMG,
     url: "https://xtrak.fr/",
   },
@@ -130,8 +137,71 @@ const projects: Project[] = [
     title: "Vatilove",
     description:
       "Une application mobile qui permet de rencontrer des personnes à proximité via un système de match basé sur la géolocalisation et les préférences.",
-    techStacks: ["Laravel", "Flutter", "Firebase"],
+    techStacks: ["PHP", "Laravel", "Flutter", "Dart", "Firebase"],
     image: VatilobeIMG,
     url: "https://vatilove.com/",
+  },
+  {
+    id: 4,
+    title: "bebeboutic",
+    description:
+      "Un site e-commerce permettant de gérer les achats de produits, leur livraison aux clients, avec un back-office dédié à l’administration.",
+    techStacks: ["PHP", "Laravel", "VueJS", "TailwindCSS"],
+    image: BebeBoutiqueIMG,
+    url: "https://bebeboutic.parapharma.store/",
+  },
+  {
+    id: 5,
+    title: "Eker Management",
+    description:
+      "Un site web vitrine pour Eker Management qui met en valeur ses services, son expertise et facilite la prise de contact avec ses clients.",
+    techStacks: ["PHP", "Wordpress"],
+    image: EkerIMG,
+    url: "https://ekermanagement.com/",
+  },
+  {
+    id: 6,
+    title: "BYM'S GROUP",
+    description:
+      "Un site web vitrine pour BYM'S GROUP qui met en valeur ses services, son expertise et facilite la prise de contact avec ses clients.",
+    techStacks: ["PHP", "Wordpress"],
+    image: BYMSIMG,
+    url: "https://bymsgroup.com/",
+  },
+  {
+    id: 7,
+    title: "Pharma Control Plus",
+    description:
+      "Logiciel de cartographie développé pour l'ANRP, permettant de gérer les officines du Burkina Faso et d’en visualiser la répartition géographique en temps réel. ",
+    techStacks: ["PHP", "Laravel", "Livewire", "Bootstrap"],
+    image: ControlPlusIMG,
+    url: "http://controlplus.pharmadigitalafrica.tech/",
+  },
+  {
+    id: 8,
+    title: "Pharma Digital Africa",
+    description:
+      "Un site web vitrine pour Pharma Digital Africa qui met en valeur ses services, son expertise et facilite la prise de contact avec ses clients.",
+    techStacks: ["PHP", "Wordpress"],
+    image: PDAIMG,
+    url: "https://pharmadigitalafrica.tech/",
+  },
+  {
+    id: 9,
+    title: "SHOPONE",
+    description:
+      "Logiciel de gestion de stock permettant de gérer les inventaires, de passer des commandes, de générer des factures pour les clients et les fournisseurs, et bien plus encore. ",
+    techStacks: ["PHP", "Laravel", "Livewire", "Bootstrap"],
+    image: SHOPONEIMG,
+    url: "https://nini.shoponeplus-cloud.com/",
+  },
+  {
+    id: 10,
+    title: "Attenuation MNV Cote d'Ivoire",
+    description:
+      "Système de suivi des gaz à effet de serre en Côte d'Ivoire, incluant une cartographie des mesures d'atténuation par secteur.",
+    techStacks: ["PHP", "Laravel", "Livewire", "Bootstrap"],
+    image: MRVIMG,
+    url: "https://attenuation.mnv-cotedivoire.ci/",
   },
 ]

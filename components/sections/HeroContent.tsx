@@ -57,7 +57,7 @@ export default function HeroContent() {
       <div className="overflow-hidden text-center">
         <div className="text-animation text-2xl md:text-4xl font-semibold">
           <span className="bg-[linear-gradient(#000000,rgba(255,255,255,.6))] dark:bg-[linear-gradient(#fff,rgba(255,255,255,.6))] inline-block text-transparent bg-clip-text">
-            Lead, Développeur, Mentor et Coach
+            Développeur &amp; Responsable technique
           </span>
         </div>
         <div className=" text-accentColor text-xl md:text-3xl font-semibold">
@@ -70,8 +70,8 @@ export default function HeroContent() {
       </div>
       <div className="w-[300px] md:w-[370px] relative z-30 text-center text-sm dark:bg-[linear-gradient(#fff,rgba(255,255,255,.6))] inline-block text-black dark:text-transparent bg-clip-text">
         <span className="block mt-2">
-          De l&#39;analyse à la mise en production, je vous accompagne dans le
-          développement ou pour booster votre activité.
+          Je vous accompagne de l&#39;analyse à la mise en production de vos
+          solutions digitales.
         </span>
       </div>
 
