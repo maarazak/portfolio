@@ -1,15 +1,48 @@
 "use client"
 
-import { useEffect, useRef, useState } from "react"
+import { useEffect, useRef } from "react"
 import useOnScreen from "@/hooks/useOnScreen"
 import { gsap } from "gsap"
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger"
 import { RoughNotation } from "react-rough-notation"
 
+// Types pour les données
+interface Experience {
+  period: string
+  title: string
+  company: string
+  description: string
+}
+
+interface SkillCategory {
+  name: string
+  skills: string[]
+}
+
+interface Education {
+  period: string
+  title: string
+  institution: string
+  description: string
+}
+
+interface ExperienceCardProps {
+  experience: Experience
+  isLeft: boolean
+}
+
+interface SkillCardProps {
+  category: SkillCategory
+}
+
+interface EducationCardProps {
+  education: Education
+}
+
 export default function ParcoursSection() {
   gsap.registerPlugin(ScrollTrigger)
 
-  const sectionRef = useRef(null)
+  const sectionRef = useRef<HTMLElement>(null)
   const elementRef = useRef<HTMLDivElement>(null)
   const isOnScreen = useOnScreen(elementRef)
 
@@ -143,7 +176,7 @@ export default function ParcoursSection() {
   )
 }
 
-function ExperienceCard({ experience, isLeft }) {
+function ExperienceCard({ experience, isLeft }: ExperienceCardProps) {
   return (
     <div
       className={`relative flex items-center ${isLeft ? "md:flex-row" : "md:flex-row-reverse"} flex-col md:gap-8`}
@@ -174,14 +207,14 @@ function ExperienceCard({ experience, isLeft }) {
   )
 }
 
-function SkillCard({ category }) {
+function SkillCard({ category }: SkillCardProps) {
   return (
     <div className="bg-white dark:bg-gray-800 p-6 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105">
       <h4 className="text-lg font-bold dark:text-white mb-4 text-center">
         {category.name}
       </h4>
       <div className="flex flex-wrap gap-2">
-        {category.skills.map((skill, index) => (
+        {category.skills.map((skill: string, index: number) => (
           <span
             key={index}
             className="px-3 py-1 bg-gradient-to-r from-green-500 to-blue-500 text-white text-xs rounded-full font-medium"
@@ -194,7 +227,7 @@ function SkillCard({ category }) {
   )
 }
 
-function EducationCard({ education }) {
+function EducationCard({ education }: EducationCardProps) {
   return (
     <div className="bg-white dark:bg-gray-800 p-6 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300">
       <div className="text-sm text-blue-600 dark:text-blue-400 font-semibold mb-2">
@@ -213,19 +246,7 @@ function EducationCard({ education }) {
   )
 }
 
-function ContactButton({ href, icon, text }) {
-  return (
-    <a
-      href={href}
-      className="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-green-500 to-blue-500 text-white rounded-full font-medium hover:scale-105 transition-transform duration-200"
-    >
-      <span>{icon}</span>
-      <span>{text}</span>
-    </a>
-  )
-}
-
-const experiences = [
+const experiences: Experience[] = [
   {
     period: "Mars 2024 - Juin 2025",
     title: "Responsable Innovation et Intégration",
@@ -256,7 +277,7 @@ const experiences = [
   },
 ]
 
-const skillCategories = [
+const skillCategories: SkillCategory[] = [
   {
     name: "Frontend",
     skills: [
@@ -283,7 +304,7 @@ const skillCategories = [
   },
 ]
 
-const educations = [
+const educations: Education[] = [
   {
     period: "2020 - 2022",
     title: "Licence Pro. Systèmes d'Information et Réseaux",
