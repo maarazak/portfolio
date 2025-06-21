@@ -6,7 +6,7 @@ import { gsap } from "gsap"
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger"
 import { RoughNotation } from "react-rough-notation"
 
-// Types pour les données
+// Types pour les données et les props
 interface Experience {
   period: string
   title: string
