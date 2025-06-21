@@ -167,8 +167,8 @@ export default function ParcoursSection() {
             <div className="text-3xl font-bold mb-4">🥇 1er Prix</div>
             <div className="text-xl mb-2">Orange Summer Challenge 2022</div>
             <div className="text-sm opacity-90">
-              Application mobile d'analyse de la fertilité du sol agricole -
-              Tech4Good
+              Application mobile d&apos;analyse de la fertilité du sol agricole
+              - Tech4Good
             </div>
           </div>
         </div>
@@ -308,17 +308,17 @@ const skillCategories: SkillCategory[] = [
 const educations: Education[] = [
   {
     period: "2020 - 2022",
-    title: "Licence Pro. Systèmes d'Information et Réseaux",
+    title: "Licence Pro. Systèmes d&apos;Information et Réseaux",
     institution: "École Supérieure des Techniques Avancées (ESTA)",
     description:
-      "Formation complète en ingénierie des systèmes d'information, développement d'applications et administration de réseaux.",
+      "Formation complète en ingénierie des systèmes d&apos;information, développement d&apos;applications et administration de réseaux.",
   },
   {
     period: "2023",
     title: "Certification Développeur Web",
     institution: "Udemy",
     description:
-      "Maîtrise complète du développement web full-stack avec création d'un site e-commerce en PHP.",
+      "Maîtrise complète du développement web full-stack avec création d&apos;un site e-commerce en PHP.",
   },
   {
     period: "2022",
@@ -332,6 +332,6 @@ const educations: Education[] = [
     title: "Baccalauréat Série H - Informatique",
     institution: "CEFIG - Ouagadougou",
     description:
-      "Diplôme de l'enseignement technologique spécialisé en informatique.",
+      "Diplôme de l&apos;enseignement technologique spécialisé en informatique.",
   },
 ]
