@@ -18,7 +18,6 @@ import { useSectionStore } from "@/store/section"
 import { gsap } from "gsap"
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger"
 import { StaticImageData } from "next/image"
-import Link from "next/link"
 import { RoughNotation } from "react-rough-notation"
 import ProjectCard from "../ProjectCard"
 
