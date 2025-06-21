@@ -30,7 +30,7 @@ export default function ProjectSection() {
 
   useEffect(() => {
     const q = gsap.utils.selector(sectionRef)
-
+    // Initial animation for the quotes
     gsap.timeline({
       scrollTrigger: {
         trigger: sectionRef.current,
