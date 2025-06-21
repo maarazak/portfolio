@@ -74,13 +74,14 @@ export default function ProjectSection() {
             show={isOnScreen}
           >
             <div className="text-xl md:text-4xl tracking-tight font-medium w-fit dark:text-accentColor">
-              Projets en vedette
+              Mes réalisations
             </div>
           </RoughNotation>
           <div ref={elementRef} className="overflow-hidden ">
-            <div className="dark:text-white qoutes-animation  md:w-full text-center font-medium flex flex-col items-center">
-              Ses projets incluent des réalisations en freelance, tandis que
-              d&#39;autres restent confidentiels et non répertoriés.
+            <div className="dark:text-white qoutes-animation md:w-full text-center font-medium flex flex-col items-center">
+              Chaque projet raconte une histoire de collaboration et
+              d&#39;innovation, transformant les défis techniques en succès
+              digitaux concrets.
             </div>
           </div>
         </div>
@@ -90,7 +91,7 @@ export default function ProjectSection() {
           ))}
         </div>
 
-        <div className="font-medium dark:text-white">
+        {/* <div className="font-medium dark:text-white">
           Découvrez d&#39;autres projets sur demande{" "}
           <Link
             href="#contact"
@@ -99,7 +100,7 @@ export default function ProjectSection() {
           >
             Contactez-moi.
           </Link>
-        </div>
+        </div> */}
       </div>
     </section>
   )

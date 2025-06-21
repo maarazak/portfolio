@@ -157,16 +157,14 @@ export default function AboutSection() {
             <div className="flex flex-col items-start gap-4">
               <div className="overflow-hidden">
                 <div className="dark:text-white text-animation">
-                  Je suis MAHAMADOU ALI Abdoul Razak, développeur web et mobile
-                  avec 5+ ans d&#39;expérience en ingénierie logicielle,
-                  spécialisé en PHP (Laravel) , Dart (Flutter) et Wordpress. Je
-                  conçois des applications sur mesure, performantes et centrées
-                  sur l&#39;utilisateur.
+                  MAHAMADOU ALI Abdoul Razak, ingénieur logiciel passionné avec
+                  plus de 5 ans d'expertise dans la création d'applications web
+                  et mobiles innovantes.
                   <br />
                   <span className="block mt-2">
-                    J&#39;accompagne les professionnels dans leurs projets
-                    digitaux : création d&#39;applications web et mobile, avec
-                    un plan d’action adapté à leurs objectifs.
+                    J&#39;accompagne les entreprises dans leur transformation
+                    digitale : développement d'applications web et mobile avec
+                    une stratégie personnalisée.
                   </span>
                 </div>
               </div>
@@ -201,14 +199,14 @@ export default function AboutSection() {
                 </div>
               </div>
               {/* <div className="flex gap-1 flex-col items-start">
-                <div className="text-accentColor">Master - IFOAD</div>
-                <div className="overflow-hidden">
-                  <div className="dark:text-white text-animation">
-                    Master en génie logiciel à l&#39;IFOAD, avec un accent sur
-                    l&#39;architecture logicielle, la sécurité et les tests.
-                  </div>
-                </div>
-              </div> */}
+                        <div className="text-accentColor">Master - IFOAD</div>
+                        <div className="overflow-hidden">
+                            <div className="dark:text-white text-animation">
+                                Master en génie logiciel à l&#39;IFOAD, avec un accent sur
+                                l&#39;architecture logicielle, la sécurité et les tests.
+                            </div>
+                        </div>
+                    </div> */}
             </div>
 
             <div className="w-full border-t-accentColor py-5 border-b-accentColor border-t-[0.01px] border-b-[0.01px] flex items-center gap-6 md:gap-6 lg:gap-20">

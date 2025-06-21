@@ -57,26 +57,22 @@ export default function HeroContent() {
       <div className="overflow-hidden text-center">
         <div className="text-animation text-2xl md:text-4xl font-semibold">
           <span className="bg-[linear-gradient(#000000,rgba(255,255,255,.6))] dark:bg-[linear-gradient(#fff,rgba(255,255,255,.6))] inline-block text-transparent bg-clip-text">
-            Développeur &amp; Responsable technique
+            Développeur
           </span>
         </div>
         <div className=" text-accentColor text-xl md:text-3xl font-semibold">
-          Full-Stack Web et Mobile
+          Web et Mobile Full-Stack
         </div>
-        <span className="font-semibold text-accentColor">PHP - Laravel - </span>
-        <span className="font-semibold text-accentColor">
-          Dart - Flutter - Wordpress
-        </span>
       </div>
       <div className="w-[300px] md:w-[370px] relative z-30 text-center text-sm dark:bg-[linear-gradient(#fff,rgba(255,255,255,.6))] inline-block text-black dark:text-transparent bg-clip-text">
         <span className="block mt-2">
-          Je vous accompagne de l&#39;analyse à la mise en production de vos
-          solutions digitales.
+          Expertise en développement d&#39;applications et solutions web et
+          mobile
         </span>
       </div>
 
       <div className="bio-animation dark:bg-[linear-gradient(#fff,rgba(255,255,255,.6))] inline-block text-black dark:text-transparent bg-clip-text text-md md:text-lg">
-        Prêt à donner vie à vos projets ?
+        Ouvert aux opportunités et collaborations
       </div>
 
       <Link
