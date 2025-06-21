@@ -14,6 +14,7 @@ interface Experience {
   description: string
 }
 
+// Catégorie de compétences avec un nom et une liste de compétences
 interface SkillCategory {
   name: string
   skills: string[]
