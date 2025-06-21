@@ -158,8 +158,8 @@ export default function AboutSection() {
               <div className="overflow-hidden">
                 <div className="dark:text-white text-animation">
                   MAHAMADOU ALI Abdoul Razak, ingénieur logiciel passionné avec
-                  plus de 5 ans d'expertise dans la création d&#39;applications
-                  web et mobiles innovantes.
+                  plus de 5 ans d&#39;expertise dans la création
+                  d&#39;applications web et mobiles innovantes.
                   <br />
                   <span className="block mt-2">
                     J&#39;accompagne les entreprises dans leur transformation
