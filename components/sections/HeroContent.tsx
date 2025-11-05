@@ -57,17 +57,17 @@ export default function HeroContent() {
       <div className="overflow-hidden text-center">
         <div className="text-animation text-2xl md:text-4xl font-semibold">
           <span className="bg-[linear-gradient(#000000,rgba(255,255,255,.6))] dark:bg-[linear-gradient(#fff,rgba(255,255,255,.6))] inline-block text-transparent bg-clip-text">
-            Développeur
+            Développeur Web et Mobile
           </span>
         </div>
         <div className=" text-accentColor text-xl md:text-3xl font-semibold">
-          Web et Mobile Full-Stack
+          PHP - LARAVEL - FLUTTER
         </div>
       </div>
       <div className="w-[300px] md:w-[370px] relative z-30 text-center text-sm dark:bg-[linear-gradient(#fff,rgba(255,255,255,.6))] inline-block text-black dark:text-transparent bg-clip-text">
         <span className="block mt-2">
-          Expertise en développement d&#39;applications et solutions web et
-          mobile
+          Conception et développement d&#39;applications web et mobile
+          performantes avec Laravel et Flutter
         </span>
       </div>
 

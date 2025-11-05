@@ -72,7 +72,7 @@ export default function AboutSection() {
           )
 
           tl.to(q(".experience-count"), {
-            innerText: 5,
+            innerText: 4,
             duration: 0.5,
             snap: {
               innerText: 1,
@@ -123,8 +123,8 @@ export default function AboutSection() {
     >
       <div className="w-full max-w-[1100px] h-full m-auto flex flex-col items-center gap-24">
         <div className="relative title text-xl md:text-4xl tracking-tight font-medium w-fit dark:text-white">
-          La programmation est un domaine où il est plus important de trouver le
-          bon problème à résoudre que de trouver la solution parfaite.
+          La vraie valeur du développement ne réside pas dans le code, mais dans
+          les problèmes qu&#39;il résout.
           {/* <div className="absolute -right-[10px] top-2">
                 <Image className="w-14 pointer-events-none select-none" src={Signs} alt="signs" />
             </div> */}
@@ -157,14 +157,16 @@ export default function AboutSection() {
             <div className="flex flex-col items-start gap-4">
               <div className="overflow-hidden">
                 <div className="dark:text-white text-animation">
-                  MAHAMADOU ALI Abdoul Razak, ingénieur logiciel passionné avec
-                  plus de 5 ans d&#39;expertise dans la création
-                  d&#39;applications web et mobiles innovantes.
+                  MAHAMADOU ALI Abdoul Razak, développeur web et mobile
+                  spécialisé en PHP/Laravel et Flutter avec plus de 4 ans
+                  d&#39;expérience professionnelle.
                   <br />
                   <span className="block mt-2">
                     J&#39;accompagne les entreprises dans leur transformation
-                    digitale : développement d&#39;applications web et mobile
-                    avec une stratégie personnalisée.
+                    digitale en développant des applications web performantes
+                    avec Laravel/Livewire et des applications mobiles natives
+                    avec Flutter, tout en assurant leur déploiement et
+                    maintenance.
                   </span>
                 </div>
               </div>
@@ -175,26 +177,25 @@ export default function AboutSection() {
               </div>
               <div className="flex gap-1 flex-col items-start">
                 <div className="text-accentColor">
-                  Baccalauréat H (Informatique de gestion) - CEFIG
+                  Licence Professionnelle - Systèmes d&#39;Information et
+                  Réseaux
                 </div>
                 <div className="overflow-hidden">
                   <div className="dark:text-white text-animation">
-                    Obtention du Baccalauréat H en Informatique de gestion à
-                    CEFIG, une formation fondée sur les principes du système
-                    d&#39;information et de l&#39;informatique.
+                    École Supérieure des Techniques Avancées (ESTA) - 2022-2023,
+                    Ouagadougou, Burkina Faso
                   </div>
                 </div>
               </div>
 
               <div className="flex gap-1 flex-col items-start">
                 <div className="text-accentColor">
-                  Licence en Systèmes d&#39;Information et Réseaux - ESTA
+                  Baccalauréat série H option Informatique
                 </div>
                 <div className="overflow-hidden">
                   <div className="dark:text-white text-animation">
-                    Obtention d&#39;une Licence en Systèmes d&#39;Information et
-                    Réseaux à l&#39;ESTA, avec un accent sur l&#39;architecture
-                    des systèmes et la gestion des réseaux.
+                    Centre d&#39;Étude et de Formation en Informatique et
+                    Gestion (CEFIG) - 2018-2019, Ouagadougou, Burkina Faso
                   </div>
                 </div>
               </div>

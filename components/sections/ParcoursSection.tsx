@@ -156,22 +156,6 @@ export default function ParcoursSection() {
             ))}
           </div>
         </div>
-
-        {/* Achievements */}
-        <div className="w-full">
-          <h2 className="text-2xl md:text-3xl font-bold mb-8 dark:text-white text-center">
-            🏆 Réalisations Marquantes
-          </h2>
-
-          <div className="bg-gradient-to-r from-green-500 to-blue-500 p-8 rounded-2xl text-white text-center">
-            <div className="text-3xl font-bold mb-4">🥇 1er Prix</div>
-            <div className="text-xl mb-2">Orange Summer Challenge 2022</div>
-            <div className="text-sm opacity-90">
-              Application mobile d&apos;analyse de la fertilité du sol agricole
-              - Tech4Good
-            </div>
-          </div>
-        </div>
       </div>
     </section>
   )
@@ -210,7 +194,7 @@ function ExperienceCard({ experience, isLeft }: ExperienceCardProps) {
 
 function SkillCard({ category }: SkillCardProps) {
   return (
-    <div className="bg-white dark:bg-gray-800 p-6 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105">
+    <div className="bg-white dark:bg-gray-800 p-6 rounded-lg border border-gray-200 dark:border-gray-700 hover:border-accentColor dark:hover:border-accentColor transition-all duration-300">
       <h4 className="text-lg font-bold dark:text-white mb-4 text-center">
         {category.name}
       </h4>
@@ -218,7 +202,7 @@ function SkillCard({ category }: SkillCardProps) {
         {category.skills.map((skill: string, index: number) => (
           <span
             key={index}
-            className="px-3 py-1 bg-gradient-to-r from-green-500 to-blue-500 text-white text-xs rounded-full font-medium"
+            className="px-3 py-1 bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 text-xs rounded-md font-medium hover:bg-accentColor hover:text-white transition-colors duration-200"
           >
             {skill}
           </span>
@@ -249,89 +233,131 @@ function EducationCard({ education }: EducationCardProps) {
 
 const experiences: Experience[] = [
   {
-    period: "Mars 2024 - Juin 2025",
+    period: "Mars 2025 - À nos jours",
     title: "Responsable Innovation et Intégration",
     company: "SOFTONE BURKINA FASO",
     description:
-      "Coordination et supervision du développement des outils technologiques. Gestion des déploiements en équipe, pilotage de l'innovation et de l'intégration des solutions digitales.",
+      "Pilotage des projets d'intégration et d'innovation digitale. Supervision du développement et des déploiements applicatifs. Diagnostic et résolution d'incidents complexes. Formation et accompagnement des utilisateurs. Mise en place d'une base de connaissance technique.",
+  },
+  {
+    period: "Mars 2024 - Mars 2025",
+    title: "Développeur Web et Mobile",
+    company: "SOFTONE BURKINA FASO",
+    description:
+      "Développement de ShopOne, solution web et mobile de gestion commerciale avec PHP, Laravel, Livewire, Flutter, Firebase et API REST. Optimisation UI/UX avec TailwindCSS et Bootstrap. Déploiement de l'application et formation des utilisateurs. Maintenance évolutive et support technique.",
   },
   {
     period: "Juillet 2023 - Février 2024",
-    title: "Développeur Full Stack",
-    company: "SWITCH MAKER",
+    title: "Ingénieur Informatique Junior",
+    company: "PHARMA DIGITAL AFRICA",
     description:
-      "Transformation des besoins clients en applications web et mobile performantes. Accompagnement sur-mesure du cahier des charges à la mise en ligne.",
+      "Conception d'une application web de contrôle des officines pour l'ANRP avec Laravel et Livewire. Développement d'un outil de contrôle pharmaceutique. Déploiement et formation des agents sur le terrain. Maintenance et support technique aux utilisateurs. Amélioration continue des performances applicatives.",
   },
   {
     period: "Novembre 2022 - Juin 2023",
-    title: "Développeur Full Stack",
-    company: "PHARMA DIGITAL AFRICA",
+    title: "Développeur",
+    company: "SWITCH MAKER",
     description:
-      "Développement d'applications web et mobile sur mesure pour le secteur pharmaceutique. Conception de solutions digitales innovantes.",
+      "Conception d'un système MRV de suivi des émissions GES pour la Côte d'Ivoire. Développement d'une application mobile de connectivité (MY TDN). Réalisation d'un site vitrine institutionnel avec PHP/Laravel, Flutter, Firebase et API REST. Support technique et mise à jour continue.",
   },
   {
     period: "Juillet - Septembre 2022",
-    title: "Développeur Full Stack Laravel",
-    company: "ORANGE DIGITAL CENTER",
+    title: "Stagiaire",
+    company: "ORANGE DIGITAL CENTER | GOOGLE - EY TUNISIE",
     description:
-      "Formation intensive et développement d'une application de gestion agricole. Maîtrise des technologies Frontend et Backend.",
+      "Conception de l'application mobile KOBERMY (analyse de fertilité agricole). Collaboration agile au sein d'une équipe pluridisciplinaire. Lauréat du 1er prix Orange Summer Challenge 2022.",
   },
 ]
 
 const skillCategories: SkillCategory[] = [
   {
-    name: "Frontend",
+    name: "Langages de Programmation",
+    skills: ["PHP", "Dart", "JavaScript", "HTML", "CSS", "Sass"],
+  },
+  {
+    name: "Frameworks & Librairies",
     skills: [
+      "Laravel",
+      "Livewire",
+      "Flutter",
       "React",
       "Vue.js",
       "Next.js",
-      "HTML/CSS",
-      "TailwindCSS",
       "Bootstrap",
-      "JavaScript",
+      "TailwindCSS",
     ],
   },
   {
-    name: "Backend",
-    skills: ["Laravel", "PHP", "API REST", "Livewire"],
+    name: "Base de Données",
+    skills: [
+      "MySQL",
+      "PostgreSQL",
+      "Firebase (Cloud Firestore)",
+      "MongoDB",
+      "SQLite",
+    ],
   },
   {
-    name: "Mobile",
-    skills: ["Flutter", "Dart", "iOS", "Android"],
+    name: "CMS & Déploiement",
+    skills: ["WordPress", "Vercel", "cPanel", "Firebase Hosting"],
   },
   {
-    name: "Databases",
-    skills: ["MySQL", "PostgreSQL", "MongoDB", "Firebase"],
+    name: "Outils & Environnements",
+    skills: ["Git", "GitHub", "Postman", "Jira", "MySQL Workbench", "VS Code"],
+  },
+  {
+    name: "Systèmes d'Exploitation",
+    skills: ["macOS", "Windows", "Linux (Ubuntu)"],
   },
 ]
 
 const educations: Education[] = [
   {
-    period: "2020 - 2022",
-    title: "Licence Pro. Systèmes d&apos;Information et Réseaux",
+    period: "Octobre 2022 - Octobre 2023",
+    title: "Licence Professionnelle en Système d&apos;Information et Réseaux",
     institution: "École Supérieure des Techniques Avancées (ESTA)",
     description:
       "Formation complète en ingénierie des systèmes d&apos;information, développement d&apos;applications et administration de réseaux.",
   },
   {
-    period: "2023",
-    title: "Certification Développeur Web",
-    institution: "Udemy",
+    period: "Novembre 2021 - Juin 2022",
+    title: "Développeur Full Stack Laravel et Symfony",
+    institution: "Orange Digital Center (ODC)",
     description:
-      "Maîtrise complète du développement web full-stack avec création d&apos;un site e-commerce en PHP.",
+      "Formation intensive en développement web full-stack avec Laravel et Symfony.",
   },
   {
-    period: "2022",
+    period: "Novembre 2023",
+    title: "Certification ChatGPT et Prompt Engineering",
+    institution: "Udemy",
+    description:
+      "Formation à la maîtrise de ChatGPT et aux techniques de prompt engineering.",
+  },
+  {
+    period: "Novembre 2023",
+    title: "Certification Développeur Web",
+    institution: "Udemy",
+    description: "Maîtrise complète du développement web full-stack.",
+  },
+  {
+    period: "Mars 2022",
     title: "Certification Développeur Flutter",
     institution: "Udemy",
     description:
       "Expertise en développement mobile multiplateforme avec Flutter et Dart.",
   },
   {
-    period: "2017 - 2019",
-    title: "Baccalauréat Série H - Informatique",
-    institution: "CEFIG - Ouagadougou",
+    period: "2021-2022",
+    title: "Certificate of Participation - Excellent English",
+    institution: "Ouagadougou, Burkina Faso",
+    description: "Programme de perfectionnement en langue anglaise.",
+  },
+  {
+    period: "Octobre 2018 - Juillet 2019",
+    title: "Baccalauréat Série H option Informatique",
+    institution:
+      "Centre d&apos;Étude et de Formation en Informatique et Gestion (CEFIG)",
     description:
-      "Diplôme de l&apos;enseignement technologique spécialisé en informatique.",
+      "Diplôme de l&apos;enseignement technologique spécialisé en informatique de gestion.",
   },
 ]
