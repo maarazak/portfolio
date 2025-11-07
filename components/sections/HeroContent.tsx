@@ -61,15 +61,15 @@ export default function HeroContent() {
           </span>
         </div>
         <div className=" text-accentColor text-xl md:text-3xl font-semibold">
-          PHP - LARAVEL - FLUTTER
+          Gestion de Projets et Formation
         </div>
       </div>
-      <div className="w-[300px] md:w-[370px] relative z-30 text-center text-sm dark:bg-[linear-gradient(#fff,rgba(255,255,255,.6))] inline-block text-black dark:text-transparent bg-clip-text">
+      {/* <div className="w-[300px] md:w-[370px] relative z-30 text-center text-sm dark:bg-[linear-gradient(#fff,rgba(255,255,255,.6))] inline-block text-black dark:text-transparent bg-clip-text">
         <span className="block mt-2">
           Conception et développement d&#39;applications web et mobile
           performantes avec Laravel et Flutter
         </span>
-      </div>
+      </div> */}
 
       <div className="bio-animation dark:bg-[linear-gradient(#fff,rgba(255,255,255,.6))] inline-block text-black dark:text-transparent bg-clip-text text-md md:text-lg">
         Ouvert aux opportunités et collaborations

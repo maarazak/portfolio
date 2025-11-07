@@ -98,8 +98,25 @@ export default function ParcoursSection() {
           </div>
         </div>
 
-        {/* Experience Section */}
+        {/* Skills Section */}
         <div className="w-full pt-40">
+          <h2 className="text-2xl md:text-3xl font-bold mb-8 dark:text-white text-center">
+            Compétences Techniques
+          </h2>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            {skillCategories.map((category, index) => (
+              <SkillCard key={index} category={category} />
+            ))}
+          </div>
+        </div>
+
+        {/* Experience Section */}
+        <div className="w-full">
+          <h2 className="text-2xl md:text-3xl font-bold mb-8 dark:text-white text-center">
+            Parcours Professionnel
+          </h2>
+
           <div className="relative">
             {/* Timeline line */}
             <div className="absolute left-4 md:left-1/2 transform md:-translate-x-1/2 h-full w-0.5 bg-gradient-to-b from-green-500 to-blue-500"></div>
@@ -113,27 +130,6 @@ export default function ParcoursSection() {
                 />
               ))}
             </div>
-          </div>
-        </div>
-
-        {/* Skills Section */}
-        <div className="w-full">
-          <RoughNotation
-            type="circle"
-            strokeWidth={2}
-            color="hsl(157, 87%, 41%)"
-            show={isOnScreen}
-            padding={15}
-          >
-            <h2 className="text-2xl md:text-3xl font-bold mb-8 dark:text-white text-center">
-              Compétences Techniques
-            </h2>
-          </RoughNotation>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {skillCategories.map((category, index) => (
-              <SkillCard key={index} category={category} />
-            ))}
           </div>
         </div>
 
